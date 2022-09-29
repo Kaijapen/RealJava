@@ -1,0 +1,10 @@
+
+public class CafeUtil {
+	public int getStreakGoal(int numWeeks) {
+		int streak = 0;
+		for(int i = 1; i <= numWeeks; i++) {
+			streak += i;
+		}
+		return streak;
+	}
+}
